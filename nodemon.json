@@ -1,0 +1,12 @@
+{
+    "restartable": "rs",
+    "verbose": true,
+    "watch": [
+        "./src/",
+        "./server/",
+        "./public/"
+    ],
+    "delay": 3,
+    "exec": "yarn express:live-start",
+    "ext": "tsx,ts,js,jsx,html,png,jpg,jpeg,json,scss,css,sass"
+}

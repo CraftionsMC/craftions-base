@@ -1,0 +1,55 @@
+/**
+ * @author Ben Siebert <ben@mctzock.de>
+ * @copyright (c) 2018-2021 Ben Siebert. All rights reserved.
+ */
+
+@media (max-width: 1000px) {
+  .header-right {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header {
+    display: grid;
+    grid: "l r";
+    .header-left {
+      grid-area: l;
+    }
+
+    .header-right {
+      grid-area: r;
+      display: block;
+    }
+  }
+}
+
+.header {
+  margin-top: 10%;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+  .header-left, .header-right {
+
+    .header-subtitle {
+      font-size: 1.5rem;
+    }
+
+    a {
+      transition: filter 320ms ease;
+    }
+
+    a:nth-child(even) {
+      color: hsl(204, 86%, 53%);
+    }
+
+    a:nth-child(odd) {
+      color: hsl(217, 71%, 53%);
+    }
+
+    a:hover {
+      filter: brightness(120%);
+    }
+  }
+}
