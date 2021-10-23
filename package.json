@@ -5,11 +5,11 @@
   "main": "server/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CraftionsMC/base-app"
+    "url": "https://github.com/CraftionsMC/craftions-base"
   },
-  "homepage": "https://github.com/CraftionsMC/base-app#readme",
+  "homepage": "https://github.com/CraftionsMC/craftions-base#readme",
   "bugs": {
-    "url": "https://github.com/CraftionsMC/base-app/issues"
+    "url": "https://github.com/CraftionsMC/craftions-base/issues"
   },
   "scripts": {
     "webpack:clean": "rm dist/bundle.js",
@@ -25,8 +25,9 @@
     "prettier:check": "prettier --check src",
     "prettier:write": "prettier --write src",
     "npm:deploy": "npm publish",
-    "docker:build": "docker build . -t\"mctzock/craftions-app_name\"",
-    "docker:deploy": "docker push mctzock/craftions-app_name",
+    "docker:build": "docker build . -t\"mctzock/craftions-base\"",
+    "docker:deploy": "docker push mctzock/craftions-base",
+    "docker:run": "docker run -d --publish 8080:3000 --name craftions-base mctzock/craftions-base",
     "nodemon:start": "nodemon --config nodemon.json"
   },
   "author": "The Craftopns Developers",
