@@ -33,12 +33,12 @@
   "author": "The Craftopns Developers",
   "license": "GPL-3.0-only",
   "dependencies": {
+    "@craftions/bulma-dark": "^0.1.0-beta.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
     "body-parser": "^1.19.0",
     "bulma": "^0.9.3",
-    "bulma-prefers-dark": "^0.1.0-beta.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "kill-port": "^1.6.1",

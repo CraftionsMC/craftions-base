@@ -263,11 +263,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@craftions/bulma-dark@npm:^0.1.0-beta.1":
+  version: 0.1.0-beta.1
+  resolution: "@craftions/bulma-dark@npm:0.1.0-beta.1"
+  checksum: 750d700c0b7686c10982c6119dea85adef8437a94d98963d05f4c0531b2ce56fd9b91fb5c4addbe87591b40c424392216bd456f118773e6a74fa3f6ade7e1f31
+  languageName: node
+  linkType: hard
+
 "@craftions/craftions-base-app@workspace:.":
   version: 0.0.0-use.local
   resolution: "@craftions/craftions-base-app@workspace:."
   dependencies:
     "@babel/core": ^7.15.8
+    "@craftions/bulma-dark": ^0.1.0-beta.1
     "@types/react": ^17.0.31
     "@types/react-dom": ^17.0.10
     "@types/react-router-dom": ^5.3.1
@@ -280,7 +288,6 @@ __metadata:
     babel-register: ^6.26.0
     body-parser: ^1.19.0
     bulma: ^0.9.3
-    bulma-prefers-dark: ^0.1.0-beta.1
     concurrently: ^6.3.0
     copy-webpack-plugin: ^9.0.1
     cors: ^2.8.5
@@ -2013,13 +2020,6 @@ __metadata:
     base64-js: ^1.3.1
     ieee754: ^1.1.13
   checksum: e2cf8429e1c4c7b8cbd30834ac09bd61da46ce35f5c22a78e6c2f04497d6d25541b16881e30a019c6fd3154150650ccee27a308eff3e26229d788bbdeb08ab84
-  languageName: node
-  linkType: hard
-
-"bulma-prefers-dark@npm:^0.1.0-beta.1":
-  version: 0.1.0-beta.1
-  resolution: "bulma-prefers-dark@npm:0.1.0-beta.1"
-  checksum: 26a88776a97ed0b57307a1aee60380a1b484ebd27d101c9995b5d220ff79fe909b060577c42c674c2863c52d4de85396c6f36031b3f7828386e21c1eda1e4445
   languageName: node
   linkType: hard
 
