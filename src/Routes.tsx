@@ -14,6 +14,8 @@ export default function Routes() {
       <Switch>
         <Route path={"/"} exact component={Home} />
         <Route path="*" component={NotFound} />
+
+        {/* ! CRAFTIONS-CLI % DO NOT TOUCH THIS LINE! */}
       </Switch>
     </>
   );
