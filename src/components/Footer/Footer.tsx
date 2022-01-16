@@ -75,6 +75,17 @@ export default function Footer() {
                 Privacy
               </a>
             </div>
+            <br />
+            <br />
+            Based on&nbsp;
+            <a
+              href={"https://github.com/CraftionsMC/craftions-base-app"}
+              target={"_blank"}
+              rel={"noreferrer"}
+            >
+              craftions-base
+            </a>
+            .
           </p>
         </div>
       </BulmaFooter>
