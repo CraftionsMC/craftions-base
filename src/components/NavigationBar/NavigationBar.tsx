@@ -50,6 +50,7 @@ export default function NavigationBar() {
           <Navbar.Item renderAs={Link} to={"/"}>
             Home
           </Navbar.Item>
+          {/* ! CRAFTIONS-CLI % Navbar.Item MOUNT_POINT */}
         </div>
         <div className={"navbar-end"}>
           <Navbar.Item>
